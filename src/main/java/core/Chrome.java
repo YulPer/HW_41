@@ -25,7 +25,7 @@ public class Chrome {
 		String copyright = driver.findElement(By.xpath("")).getText();
 		System.out.println("Copyright: " + copyright);
 		driver.findElement(By.id("email")).sendKeys("superlulu@mail.ru");
-		driver.findElement(By.id("pass")).sendKeys("Eva51.70.72");
+		driver.findElement(By.id("pass")).sendKeys("***********");
 		driver.findElement(By.id("u_0_a")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@id=\"u_0_d\"]/div[1]/div[1]/div/a/span/span")).click();
